@@ -11,7 +11,7 @@ namespace ShootingDice
             OneHigherPlayer player1 = new OneHigherPlayer();
             player1.Name = "Bob";
 
-            SmackTalkingPlayer player2 = new SmackTalkingPlayer("It's a shame you couldn't override yo mama's JankyTeeth() method!");
+            CreativeSmackTalkingPlayer player2 = new CreativeSmackTalkingPlayer();
             player2.Name = "Sue";
 
             player2.Play(player1);
