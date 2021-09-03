@@ -8,10 +8,10 @@ namespace ShootingDice
     {
         static void Main(string[] args)
         {
-            Player player1 = new Player();
+            SmackTalkingPlayer player1 = new SmackTalkingPlayer("Your mother was a hamster!");
             player1.Name = "Bob";
 
-            Player player2 = new Player();
+            SmackTalkingPlayer player2 = new SmackTalkingPlayer("It's a shame you couldn't override yo mama's JankyTeeth() method!");
             player2.Name = "Sue";
 
             player2.Play(player1);
