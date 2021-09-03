@@ -8,7 +8,7 @@ namespace ShootingDice
     {
         static void Main(string[] args)
         {
-            SmackTalkingPlayer player1 = new SmackTalkingPlayer("Your mother was a hamster!");
+            OneHigherPlayer player1 = new OneHigherPlayer();
             player1.Name = "Bob";
 
             SmackTalkingPlayer player2 = new SmackTalkingPlayer("It's a shame you couldn't override yo mama's JankyTeeth() method!");
