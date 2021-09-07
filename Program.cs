@@ -18,7 +18,7 @@ namespace ShootingDice
 
             Console.WriteLine("-------------------");
 
-            HumanPlayer player3 = new HumanPlayer();
+            SoreLoserPlayer player3 = new SoreLoserPlayer();
             player3.Name = "Wilma";
 
             player3.Play(player2);
